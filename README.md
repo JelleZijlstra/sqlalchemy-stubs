@@ -19,7 +19,7 @@ To use these stubs, clone this repo and point your type checker to it. For examp
 ## Contributing
 
 Contributions should follow the same style guidelines as
-[https://github.com/python/typeshed/blob/master/CONTRIBUTING.md](typeshed).
+[typeshed](https://github.com/python/typeshed/blob/master/CONTRIBUTING.md).
 
 ## Git history
 
