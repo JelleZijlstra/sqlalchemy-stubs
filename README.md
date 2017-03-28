@@ -36,7 +36,7 @@ SQLAlchemy stubs; see the git history for details.
 ## TODOs
 
 - Provide testing (both a local test script and a Travis setup)
-- Document why the SQLAlchemy stubs were deleted
+- Document in this file what problems led to SQLAlchemy being deleted from typeshed.
 - Maybe provide an automated installation script. (For example, I think we could make a pip package
   that depends on mypy and installs these stubs inside mypy's copy of typeshed. Or we could wait
   for mypy to provide a standardized way to add third-party stubs.)
