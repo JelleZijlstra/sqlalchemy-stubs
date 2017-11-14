@@ -5,9 +5,9 @@
 import sys
 from typing import Any, Optional, Text
 import threading as threading
-from collections import namedtuple
+from collections import namedtuple as namedtuple
 from io import BytesIO as byte_buffer
-from io import StringIO
+from io import StringIO as StringIO
 from inspect import getargspec as inspect_getfullargspec
 from operator import attrgetter as dottedgetter
 if sys.version_info < (3, 0):
