@@ -6,7 +6,7 @@ from typing import Any, Optional
 from .. import util
 from ..sql import operators
 from .base import ONETOMANY as ONETOMANY, MANYTOONE as MANYTOONE, MANYTOMANY as MANYTOMANY, EXT_CONTINUE as EXT_CONTINUE, EXT_STOP as EXT_STOP, NOT_EXTENSION as NOT_EXTENSION, InspectionAttrInfo as InspectionAttrInfo
-from .base import InspectionAttr, _MappedAttribute
+from .base import InspectionAttr as InspectionAttr, _MappedAttribute as _MappedAttribute
 
 MapperExtension = ...  # type: Any
 SessionExtension = ...  # type: Any
