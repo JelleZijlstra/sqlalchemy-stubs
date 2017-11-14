@@ -1,0 +1,16 @@
+sudo: false
+language: python
+
+matrix:
+  include:
+    - python: "3.6-dev"
+      env: TEST_CMD="flake8"
+    - python: "3.5"
+      env: TEST_CMD="./tests/mypy_test.py --no-implicit-optional"
+
+install:
+  - if [[ $TRAVIS_PYTHON_VERSION == '3.6-dev' ]]; then pip install -U flake8==3.3.0 flake8-bugbear>=17.3.0 flake8-pyi==17.1.0; fi
+  - if [[ $TRAVIS_PYTHON_VERSION == '3.5' ]]; then pip install -U mypy==0.550; fi
+
+script:
+  - $TEST_CMD
