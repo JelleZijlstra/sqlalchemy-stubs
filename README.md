@@ -1,5 +1,10 @@
 # sqlalchemy-stubs
 
+## Deprecated
+
+This repo is deprecated. If you're interested in using typing with SQLAlchemy, please use
+[Dropbox's stubs](https://github.com/dropbox/sqlalchemy-stubs) instead.
+
 ## About
 
 This repository contains external type annotations (see
